@@ -4,7 +4,6 @@ Implementation of Retreival Augmented Generation:
 - embeds it and send it to the vectorstore to get the relevant documents,
 - appends it to the prompts
 - sends all those prompts to the llm
-
 """
 import os
 from dotenv import load_dotenv
